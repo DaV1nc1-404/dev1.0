@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cmr">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="CMR Amenity"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Canteen"></activity>
+        <activity android:name=".Food_Final" />
+        <activity android:name=".Loginadmin" />
+        <activity android:name=".Admin_home" />
+        <activity android:name=".Admin_Login" />
+        <activity android:name=".item_found" />
+        <activity android:name=".item_lost" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Food" />
+        <activity android:name=".Complains" />
+        <activity android:name=".Lost" />
+        <activity android:name=".Events" />
+        <activity android:name=".profile" />
+        <activity android:name=".Home" />
+        <activity android:name=".RegActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

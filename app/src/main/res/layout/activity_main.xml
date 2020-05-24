@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/admPass"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginBottom="384dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="30dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/admUn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/admUn"
+        app:layout_constraintTop_toBottomOf="@+id/admUn" />
+
+    <EditText
+        android:id="@+id/admUn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="459dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="30dp"
+        android:ems="10"
+        android:hint="Email/ Username"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <Button
+        android:id="@+id/mbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="301dp"
+        android:background="@drawable/rb"
+        android:text="Signin"
+        app:layout_constraintEnd_toEndOf="@+id/admPass"
+        app:layout_constraintStart_toStartOf="@+id/admPass"
+        app:layout_constraintTop_toBottomOf="@+id/admPass" />
+
+    <TextView
+        android:id="@+id/fPasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginRight="149dp"
+        android:layout_marginBottom="260dp"
+        android:text="Forgot Password?"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/mbtn"
+        app:layout_constraintStart_toStartOf="@+id/mbtn"
+        app:layout_constraintTop_toBottomOf="@+id/mbtn" />
+
+    <TextView
+        android:id="@+id/nAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="183dp"
+        android:text="Don't Have an Account?"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/fPasswd"
+        app:layout_constraintStart_toStartOf="@+id/fPasswd"
+        app:layout_constraintTop_toBottomOf="@+id/fPasswd" />
+
+    <Button
+        android:id="@+id/hSu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/rb"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="@+id/nAcc"
+        app:layout_constraintStart_toStartOf="@+id/nAcc"
+        app:layout_constraintTop_toBottomOf="@+id/nAcc" />
+
+    <Button
+        android:id="@+id/admSi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="577dp"
+        android:background="@drawable/rb"
+        android:text="Admin?"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+
+</RelativeLayout>

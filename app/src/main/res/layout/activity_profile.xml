@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".profile">
+
+
+    <EditText
+        android:id="@+id/unReg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:autofillHints=""
+        android:background="@drawable/brb"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@color/Grbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <EditText
+        android:id="@+id/emReg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/brb"
+        android:ems="10"
+        android:hint="email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="@color/Grbg"
+        app:layout_constraintEnd_toEndOf="@+id/unReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/unReg"
+        app:layout_constraintTop_toBottomOf="@+id/unReg" />
+
+    <EditText
+        android:id="@+id/desReg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/brb"
+        android:ems="10"
+        android:hint="designation"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/Grbg"
+        app:layout_constraintEnd_toEndOf="@+id/emReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/emReg"
+        app:layout_constraintTop_toBottomOf="@+id/emReg" />
+
+    <EditText
+        android:id="@+id/pnReg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/brb"
+        android:ems="10"
+        android:hint="phno"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@color/Grbg"
+        app:layout_constraintEnd_toEndOf="@+id/desReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/desReg"
+        app:layout_constraintTop_toBottomOf="@+id/desReg" />
+
+
+    <EditText
+        android:id="@+id/psReg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/brb"
+        android:ems="10"
+        android:hint="password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@color/Grbg"
+        app:layout_constraintEnd_toEndOf="@+id/pnReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pnReg"
+        app:layout_constraintTop_toBottomOf="@+id/pnReg" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="121dp"
+        android:layout_height="278dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/unReg"
+        app:layout_constraintEnd_toEndOf="@+id/unReg"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="@+id/unReg"
+        app:srcCompat="@drawable/profile" />
+
+    <Button
+        android:id="@+id/upBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/dspnbg"
+        android:text="update"
+        app:layout_constraintEnd_toEndOf="@+id/psReg"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="@+id/psReg"
+        app:layout_constraintTop_toBottomOf="@+id/psReg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

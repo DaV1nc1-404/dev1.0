@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity">
+    <EditText
+        android:id="@+id/unReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/emReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textColorHighlight="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/unReg"
+        app:layout_constraintStart_toStartOf="@+id/unReg"
+        app:layout_constraintTop_toBottomOf="@+id/unReg"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/desReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="designation"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/emReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/emReg"
+        app:layout_constraintTop_toBottomOf="@+id/emReg"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/pnReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="phno"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/desReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/desReg"
+        app:layout_constraintTop_toBottomOf="@+id/desReg"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/cpReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/psReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/psReg"
+        app:layout_constraintTop_toBottomOf="@+id/psReg"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/psReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="/password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/pnReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pnReg"
+        app:layout_constraintTop_toBottomOf="@+id/pnReg"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/hReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rb"
+        android:text="signup"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/cpReg"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/cpReg"
+        app:layout_constraintTop_toBottomOf="@+id/cpReg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

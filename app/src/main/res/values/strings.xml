@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">cmr</string>
+    <string name="admin">Admin?</string>
+    <string-array name="menu">
+        <item>Menu</item>
+        <item>Idly</item>
+        <item>Dosa</item>
+        <item>parota</item>
+        <item>bonda</item>
+        <item>fried rice</item>
+        <item>Chicken fried rice</item>
+        <item>veg noodles</item>
+        <item>chicken noodles</item>
+        <item>veg manchuria</item>
+        <item>chicken mabchuria</item>
+        <item>cool drinks</item>
+    </string-array>
+    <string-array name="Events">
+        <item>Event 1</item>
+        <item>Event 2</item>
+        <item>Event 3</item>
+        <item>Event 4</item>
+        <item>Event 5</item>
+        <item>Event 6</item>
+    </string-array>
+</resources>

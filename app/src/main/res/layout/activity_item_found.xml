@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".item_found">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="279dp"
+        android:layout_marginRight="279dp"
+        android:layout_marginBottom="516dp"
+        android:background="@color/colorPrimary"
+
+        android:text="Name of the Item"
+        android:textColor="@color/grbg" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="100dp"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="281dp"
+        android:layout_marginRight="281dp"
+        android:layout_marginBottom="435dp"
+        android:text="Description"
+        android:textColor="@color/grbg" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="284dp"
+        android:layout_marginRight="284dp"
+        android:layout_marginBottom="358dp"
+        android:text="Contact info"
+        android:textColor="@color/grbg" />
+
+    <EditText
+        android:id="@+id/lostName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="507dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/Grbg" />
+
+    <EditText
+        android:id="@+id/lostDescrp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="427dp"
+        android:ems="10"
+        android:hint="Describtion(color,shape etc)"
+        android:inputType="textPersonName"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/Grbg"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/lostContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="345dp"
+        android:ems="10"
+        android:hint="mobileno/mail"
+        android:inputType="textPersonName"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/Grbg" />
+
+    <Button
+        android:id="@+id/lostReportbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginRight="163dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/dspnbg"
+        android:text="Report" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="326dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="611dp"
+        android:text="Report the Item you've Found"
+        android:textColor="@color/grbg"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imgFou"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:layout_marginBottom="217dp"
+        app:srcCompat="@mipmap/image" />
+
+    <Button
+        android:id="@+id/imgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/dspnbg"
+        android:text="Pick" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="296dp"
+        android:layout_marginRight="296dp"
+        android:layout_marginBottom="256dp"
+        android:text="Any Image"
+        android:textColor="@color/grbg" />
+
+</RelativeLayout>

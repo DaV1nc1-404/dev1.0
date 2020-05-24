@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+
+    android:background="@drawable/popupbg">
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:background="@drawable/brb"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/Grbg"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="55dp"
+        android:text="Manage  your Order!"
+        android:textAlignment="center"
+        android:textColor="#FFA7E8FF"
+        android:textColorHint="@color/Grbg"
+
+        android:textSize="25dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/noPl"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textColorHint="@color/Grbg"
+        android:hint="Enter the Qunatity (no of Plates)"
+        android:layout_marginLeft="48dp">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/conPri"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="@color/Grbg"
+        android:textColorHint="@color/Grbg"
+        android:layout_marginTop="70dp"
+        android:text="price!"
+
+        ></TextView>
+
+    <Button
+        android:id="@+id/ConOrd"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Confirm Order!"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:background="@drawable/rb"
+        android:layout_marginLeft="90dp"></Button>
+
+</LinearLayout>

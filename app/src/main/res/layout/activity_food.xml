@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ordBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Food">
+
+
+
+    <Spinner
+        android:id="@+id/ddSpinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginBottom="420dp"
+        android:background="@drawable/dspnbg"
+        android:entries="@array/menu"
+        android:outlineSpotShadowColor="@color/colorPrimary"></Spinner>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginRight="181dp"
+        android:layout_marginBottom="560dp"
+        android:text="Hello User!"
+        android:textColor="@color/colorAccent"
+        android:textColorLink="#FFFFFF"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="295dp"
+        android:layout_marginRight="295dp"
+        android:layout_marginBottom="423dp"
+        android:text="select item"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:layout_marginBottom="513dp"
+        android:text="Welcome to E-Cafeteria"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="199dp"
+        android:layout_marginRight="199dp"
+        android:layout_marginBottom="302dp"
+        android:text="0.00rs"
+        android:textColor="@color/Grbg" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="169dp"
+        android:layout_marginRight="169dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/dspnbg"
+        android:text="Button" />
+
+</RelativeLayout>

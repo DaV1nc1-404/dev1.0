@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Login">
+
+    <EditText
+        android:id="@+id/admPass"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="362dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="30dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/admUn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/admUn"
+        app:layout_constraintTop_toBottomOf="@+id/admUn" />
+
+    <EditText
+        android:id="@+id/admUn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="439dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="30dp"
+        android:ems="10"
+        android:hint="Email/ Username"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <TextView
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:layout_marginBottom="559dp"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/admUn"
+        app:layout_constraintEnd_toEndOf="@+id/admUn"
+        app:layout_constraintStart_toStartOf="@+id/admUn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619"
+        tools:text="Admin Signin" />
+
+    <Button
+        android:id="@+id/admSi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="274dp"
+        android:background="@drawable/dspnbg"
+        android:text="sign in" />
+
+</RelativeLayout>

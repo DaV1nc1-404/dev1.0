@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".Admin_home">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="30dp"
+
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Events"
+            android:textAlignment="center"
+            android:textSize="40dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="410dp"
+
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Reports"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:layout_height="50dp">
+
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="560dp"
+
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Lost-Found"
+            android:textSize="40dp"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_height="50dp">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:background="@drawable/image_foreground"
+        android:layout_width="80dp"
+
+        android:layout_height="80dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/brb" />
+
+
+</RelativeLayout>

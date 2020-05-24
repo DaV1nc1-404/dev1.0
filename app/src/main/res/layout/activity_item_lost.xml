@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorPrimary"
+tools:context=".item_lost">
+
+<TextView
+    android:id="@+id/textView10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="268dp"
+    android:layout_marginRight="268dp"
+    android:layout_marginBottom="497dp"
+    android:background="@color/colorPrimary"
+
+    android:text="Name of the Item"
+    android:textColor="@color/colorAccent" />
+
+<TextView
+    android:id="@+id/textView11"
+    android:layout_width="100dp"
+    android:layout_height="29dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="281dp"
+    android:layout_marginRight="281dp"
+    android:layout_marginBottom="413dp"
+    android:text="Description"
+    android:textColor="@color/colorAccent" />
+
+<TextView
+    android:id="@+id/textView12"
+    android:layout_width="91dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="275dp"
+    android:layout_marginRight="275dp"
+    android:layout_marginBottom="326dp"
+    android:text="Contact info"
+    android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/lostName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="482dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/Grbg" />
+
+    <EditText
+        android:id="@+id/lostDescrp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="404dp"
+        android:ems="10"
+        android:hint="Describtion(color,shape etc)"
+        android:inputType="textPersonName"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/Grbg"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/lostContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="312dp"
+        android:ems="10"
+        android:hint="mobileno/mail"
+        android:inputType="textPersonName"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/Grbg" />
+
+<Button
+    android:id="@+id/lostReportbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="106dp"
+    android:layout_marginRight="106dp"
+    android:layout_marginBottom="201dp"
+    android:background="@drawable/dspnbg"
+    android:text="Report" />
+
+<TextView
+    android:id="@+id/textView13"
+    android:layout_width="326dp"
+    android:layout_height="58dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="43dp"
+    android:layout_marginRight="43dp"
+    android:layout_marginBottom="611dp"
+    android:text="Report the lost Item"
+    android:textColor="@color/colorAccent"
+    android:textSize="35dp" />
+</RelativeLayout>

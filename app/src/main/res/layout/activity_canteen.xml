@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".Canteen">
+
+     <LinearLayout
+
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="120dp">
+         <TextView
+             android:layout_marginLeft="50dp"
+             android:layout_marginTop="40dp"
+             android:layout_height="40dp"
+             android:textSize="20dp"
+             android:paddingLeft="40dp"
+             android:text="Welcome to E-Cafeteria!"
+             android:textColor="@color/grbg"
+             android:layout_width="300dp">
+
+         </TextView>
+
+         </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:columnCount="2"
+        android:rowCount="5"
+
+        android:layout_marginTop="0dp"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+              <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/idli"></ImageView>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Idli"
+                    android:textColor="#6f6f6f"
+                   android:textSize="18sp"></TextView>
+
+        </LinearLayout>
+       </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/dosa"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Dosa"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/pulihora"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="pulihora"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/bonda"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="bonda"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/paratha"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Parotha"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/friedrice"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Fried Rice"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/coffee"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Coffee"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/puri"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Puri"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/noodles"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Noodles"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp" tools:targetApi="lollipop">
+
+            <LinearLayout
+
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/food"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Drinks"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+</LinearLayout>
+</ScrollView>
